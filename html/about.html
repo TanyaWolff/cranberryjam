@@ -1,0 +1,17 @@
+<div id="about">
+<h1>About Cranberry Jam website</h1>
+This website is brought to you by my raspberry pi. 
+<p>It used to run on my pentium which is standing on its last legs. The web server is running on node.js using <a class="new" href="https://github.com/cloudhead/node-static">node-static</a> 
+as these pages are static and do not require node's cool express framework (yet). 
+These pages are sprinkled with some jquery and mootools.
+Pictures have been removed since the pi's SD card is only 8G.</p><p>
+Related to cranberry jam are some handy rails apps I've been developing to learn from.
+The links to them have been removed until they can be deployed to heroku (postgresql cost permitting).
+I am in the process of updating from rails 2.3.5 to 3.0.  
+Yes, the raspberry pi has rvm and ruby 1.9.3. 
+The old apps used ruby 1.8.7 and there are lots of improvements I'm still getting my head around. 
+I manually applied the environment and routes changes, 
+but later realized it would have been a whole lot easier to install the upgrade plugin. 
+The drawback was getting the right gems. Eventually settled with a minimal gemfile consisting of only rails and the upgrade package. Then I was able to bundle install, rake routes without error, and finally call rails upgrade to catch all the legacy ActiveRecord calls. It is definitely worth it to install the upgrade plugin! 
+</p>
+</div>

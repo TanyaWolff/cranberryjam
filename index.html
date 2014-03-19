@@ -1,0 +1,146 @@
+<html> 
+<head>
+<title>Cranberry Jam</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="stylesheets/simple.css" media="screen">
+
+<script LANGUAGE="javascript" SRC="javascripts/mootools-core-1.4.5-full-nocompat.js"></script> 
+<script LANGUAGE="javascript" SRC="javascripts/cjmoo.js" type="text/javascript"></script> 
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script>
+function loadPart(part) {
+ url=part.id
+ name=part.firstChild.textContent
+ $("#container").load(url);
+ $("#page").text(name);
+}
+</script>
+
+
+</head>
+<body>
+
+
+<div id="main">
+<div id="banner">
+<img src="images/banner.jpg"/>
+<span style="float:right;"><br>Now on Raspberry Pi &nbsp;&nbsp;&nbsp;</span>
+</div>
+
+<div id="menus">
+<ul class="horiz">
+
+
+<li class="mainmenu">
+
+  <span><strong>Home</strong></span><br>
+  <ul class="horiz">
+    <li class="dropdown"><a href="index.html" >Home</a></li>
+    <li class="dropdown" id="html/about.html" onclick="loadPart(this); return false;">About</li>
+	<!--li class="dropdown" id="html/sitemap.html">Sitemap</li-->
+  </ul>
+</li>
+<li class="mainmenu">
+
+  <span><strong>Cranberry Jam</strong></span>
+  <ul class="horiz">
+    <li class="dropdown" id="html/invitation.html" onclick="loadPart(this); return false;" >Invitation</li>
+    <li class="dropdown" id="html/details.html" onclick="loadPart(this); return false;">Details</li>
+    <li class="dropdown" id="html/history.html" onclick="loadPart(this); return false;">History</li>
+    <li class="dropdown" id="html/activities.html" onclick="loadPart(this); return false;">Activities</li>
+    <li class="dropdown" id="html/map.html" onclick="loadPart(this); return false;">Map</li>
+    <li class="dropdown" id="html/cabinStory.html" onclick="loadPart(this); return false;">Story</li>
+    <!--li class="dropdown" id="pics/1992/cabin/HTML/index.htm" onclick="loadPart(this); return false;">Picture Story</li-->
+  </ul>
+
+</li>
+<!--li class="mainmenu">
+<span><strong>Pics</strong></span>
+  <div>
+	<div>
+	<a href="index.html" onclick="loadXMLDoc(this); return false;">Jam</a>
+    <a href="html/wedding.html">Marrynade</a>
+    <a href="#">Honey</a>
+    <a href="#">Maple Sugar</a>
+	<a href="pics/cabins/HTML/index.htm" onclick="loadXMLDoc(this); return false;">Cabins</a>
+	<a href="pics/CJ/2011/CJ2011.html" onclick="loadXMLDoc(this); return false;">CJ 2011</a>
+	<a href="pics/2011/Thanksgiving/Thanksgiving2011.html" onclick="loadXMLDoc(this); return false;">Thanksgiving 2011</a>
+	<a href="htmlFiles/CJ.html" onclick="loadXMLDoc(this); return false;">Jam Sessions</a>
+	<a href="pics/2008/Cranberry/winter/html/index.htm" onclick="loadXMLDoc(this); return false;">Winter</a>
+	<a href="pics/2008/Oct/html/index.htm" onclick="loadXMLDoc(this); return false;">Thanksgiving</a>
+	<a href="pics/2008/Cranberry/trails/html/index.htm" onclick="loadXMLDoc(this); return false;">Trails</a>
+	<a href="pics/2006/Ponds/index.htm" onclick="loadXMLDoc(this); return false;">Ponds</a>
+	<a href="pics/2005/index.htm" onclick="loadXMLDoc(this); return false;">Autumn</a>
+	<a href="html/Albums2012.html" onclick="loadXMLDoc(this); return false;">My Pics 2012</a>
+	<a href="html/Albums2011.html" onclick="loadXMLDoc(this); return false;">My Pics 2011</a>
+	<a href="html/Albums2010.html" onclick="loadXMLDoc(this); return false;">My Pics 2010</a>
+	<a href="html/Albums2009.html" onclick="loadXMLDoc(this); return false;">My Pics 2009</a>
+  </div>
+    
+  </div>
+</li-->
+<li class="mainmenu">
+<span><strong>Links</strong></span>
+  <ul class="horiz">
+	<!--a href="http://campground.cranberryjam.ca">Cranberry Park</a-->
+    <!--a href="http://blueskies.cranberryjam.ca">Blueskies</a-->
+    <!--a href="http://wedding.cranberryjam.ca">Jam-Marrynade RSVP</a-->
+   <li class="dropdown"> <a href="https://github.com/TanyaWolff/blueboxes">Blueboxes</a> </li>
+  </ul>
+</li>
+<li class="mainmenu">
+<span><strong>Contact</strong></span>
+  <ul class="horiz">
+<li class="dropdown">
+<a href="http://www.linkedin.com/profile/view?id=21595332&trk=nav_responsive_tab_profile">Tanya Wolff</a></li>
+  </ul>
+</li>
+
+<li class="mainmenu"></li>
+</ul>
+</div>
+<div id="page">
+Home
+</div>
+<div id="container">
+<div id="boxes">
+<fieldset class="notice">
+<legend>Cranberry Marry-nade 2012</legend> 
+Bill & Tanya said their vows under Cranberry boughs
+</fieldset>
+</div>
+<p>
+<h1>
+Welcome to the home of our annual jam session on Cranberry Lake!
+</h1>
+Let's JAM!<br>
+Get out your strings 'n' spoons<br>
+Sing with the loons<br>
+Strum, drum, whistle away<br>
+While the ducks, dogs and turtles play<br>
+Sleep under the stars, warm your toes by the campfire...<br>
+And we'll have cranberry jam on our toast in the morning!<br>
+<br>
+Come and share the music, woods, food and friends at the<br>
+15th ANNUAL CRANBERRY JAM on Cranberry Lake,<br>
+in Shady Nook at Cranberry Park <b>July 12-13, 2014</b>.<br>
+<br>
+Although we play much more than Irish music,<br>
+especially campfire folk songs, we generally follow<br>
+the session ettiquette and you will feel how Cranberry Jam<br>
+infiltrates your soul!<br>
+<br>
+</p>
+<div id="boxes">
+<fieldset class="def">
+<legend>An Irish traditional music session</legend>
+"...a gathering of Irish traditional musicians for the purpose of celebrating their common interest in the music by playing it together in a relaxed, informal setting, while in the process generally beefing up the mystical cultural mantra that hums along uninterruptedly beneath all manifestations of Irishness worldwide.."
+</fieldset>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

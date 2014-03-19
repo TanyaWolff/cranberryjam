@@ -1,0 +1,343 @@
+body { 
+	margin:0;	
+}
+h1 {
+	padding: 10;
+}
+A:hover {
+	text-decoration: underline; color:red;
+}
+#layers {
+	position: relative;
+	
+}
+#line { 	
+	width: 100%;	
+	background: url("../images/CelticKnot.jpg") repeat-x; 
+	height: 31px;
+	z-index: 2;
+}
+
+img {
+	width: 365px;
+	height: 60px;
+	
+}
+#columns {
+}
+#side {
+  	float: left;
+  	width: 100px;
+	top: 100px;
+   	margin: 0 0;
+  	text-align: left;
+  	font-size: small;	
+	padding: 10px;
+}
+
+#side img {
+   
+  	width:  100px;
+}
+
+div#light {
+	color: white; 
+	weight: bold; 
+	width: 400px;
+}
+#rside {
+  	float: left;
+  	width: 10%;
+	top: 100px;	
+  	text-align: left;
+  	color: #ffff99;
+  	font-size: small;
+	font-family: arial;
+	opacity: 0.8;
+}
+#rside img {
+	width:  100px;
+}
+#bottom {
+  	clear:both;
+  	padding: 10px;
+  	width: 730px;
+  	background: darkred;
+  	text-align: right;
+	font-family: arial;
+  	color: #ffff99;
+  	font-size: small;
+	margin: 0px;
+	opacity: 0.9;
+}
+div#greenbox {
+	background-color:green;
+	opacity:.5;
+	width:500px;
+	color: white; 
+	font-weight: bold; 
+	font-size: 20px;
+}
+
+
+#invitation {
+	  color:                brown;
+          font-family:          Geneva, Arial, Helvetica, sans-serif;
+          font-size:            10pt;
+	  
+}    
+#activities {
+
+	  color:                blue;
+          font-family:          Geneva, Arial, Helvetica, sans-serif;
+          font-size:            12pt;
+          background: url("../images/lakeOct2008.JPG") no-repeat;
+	margin: 20;
+}    
+ul.a {
+list-style-type:disc;
+margin:20;
+padding: 1 10;
+}
+li {
+width: 50%;
+}
+li.normal1 {
+padding: 1 10;
+type: circle;
+float:none;
+width: 50%;
+color: darkblue;
+font-family: arial;
+text-align:left;
+display: list-item;
+
+}
+div#header
+        {
+          background-color:     #ffffff;
+          color:                #666666;
+          text-align:           right;
+          font-family:          Verdana, Arial, Helvetica, sans-serif;
+          font-size:            7.5pt;
+          padding-top:          5px;
+          padding-right:        8px;
+        }
+div#footer {
+          color:                #999999;
+          text-align:           center;
+          font-size:            8pt;
+        }
+     
+td.heading {
+          font-weight:          bold;
+        }
+      
+      
+div#textbody {
+          padding-right:        25px;
+          padding-left:         25px;
+	  background:		"field.jpg"
+      }
+     
+   
+a.embed {
+ color:#0000FF;
+ text-align:left;
+}
+div#history {
+	color: purple;
+}
+div#container {
+	position: absolute;
+	top: 80; left: 0;
+	width:		90%;
+	padding: 0 5%;
+	font-size: 	12px;
+	background-color: #fffff0;
+	z-index: 10;
+	
+}
+div#boxes {
+position: relative;
+z-index: 100;
+}
+div#homeold {
+
+	position: absolute;
+	width:		700px;
+	left: 200;
+	top: 60;	
+}
+div#homenew {
+  position:relative;
+  margin: 0 auto;
+	width:		700px;
+}
+div#info {
+	 background-color:#FFE199;
+	top: 60;
+}
+#main {
+	position: relative;
+  	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	z-index: 1;
+}
+#banner {	
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	background-color: darkred; 	
+	height: 60px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+div.floated {
+  width: 400px;
+  float: left;
+  margin-left: 1px;
+}
+ul.horiz {
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+z-index:102;
+}
+ul1 {
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+z-index:102;
+}
+li.mainmenu {
+float:left;
+width: 20%;
+background: lightgreen;
+color: darkblue;
+font-family: arial;
+display:block;
+text-align:center;
+overflow:hidden;
+height:20px;
+}
+li:hover{background:blue;}
+div#menus {
+position: absolute;
+top: 60; left: 0;
+width: 100%;
+  z-index:100;
+}
+
+#menus.mainmenu span, #menus.mainmenu a {
+  display: block;
+  padding: 0 0px;
+}
+
+li.dropdown
+{
+display:block;
+width:100%;
+font-weight:bold;
+color:#FFFFFF;
+background-color:lightblue;
+text-align:center;
+padding:0px;
+text-decoration:none;
+text-transform:uppercase;
+z-index:105;
+}
+a:link,a:visited{}
+a.dropdown
+{
+display:block;
+width:100%;
+font-weight:bold;
+color:#FFFFFF;
+background-color:lightblue;
+text-align:center;
+padding:0px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:visited
+{
+color:#cc99ff;
+}
+.dropdown:hover{
+ background:yellow;
+ cursor:pointer;
+}
+a:hover{background:yellow;}
+body {
+font-family: arial;
+font-size: 12px;
+line-height: 20px;
+color: darkblue;
+height:750px;
+}
+scrollbar-face-color: #336699; scrollbar-3dlight-color: yellow; scrollbar-base-color: #336699;
+scrollbar-track-color: #336699; scrollbar-darkshadow-color: #000; scrollbar-arrow-color: red;
+scrollbar-shadow-color: #fff; scrollbar-highlight-color: #fff;
+
+pre {
+font-family: anonymous,fixedsys,lucida,monospace;
+font-size: 9px;
+line-height: 20px;
+font-color: blue;
+}
+.def{
+bottom: 30;
+border: 10px solid #99ccc9;
+background: lightblue;
+width: 50%;
+color:black;
+font-size: 10;
+font-family: arial;
+font-weight: bold;
+float: left;
+margin-left: -100px;
+}
+.notice {
+float: right;
+border: 10px solid #ffcc66;
+top: 100;
+margin-right: -100;
+margin-top: 100;
+background: #ffff99;
+width:200px;
+}
+legend{
+background: lightgreen;
+color: white;
+font-size: 12;
+font-family: arial;
+font-weight: bold;
+}
+
+div#page {
+border: 5px solid #ffee8a ;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+width: 100px;
+background: #ffee8a;
+position: fixed;
+top: 200px;
+left: 0px;
+text-align: center;
+z-index: 102;
+}
+#debug {
+background=red;
+position: absolute;
+bottom: 50px;
+}
+#slides {
+      display:none;
+    }
